@@ -1,0 +1,29 @@
+/*-- scss:defaults --*/
+
+$body-bg: #C6D6E3;
+$body-color: #041e42;
+$link-color: #42affa;
+
+/*-- scss:rules --*/
+
+.reveal .edinburgh-hr {
+    color: #041e42;
+    background-color: #041e42;
+    border: 0;
+    height: 1px;
+    width: 75%;
+    margin-right: 0;
+}
+
+.reveal .quarto-title-author {
+   text-align: right !important;
+   width: 100%;
+   font-variant: small-caps;
+   font-size:smaller;
+}
+
+.reveal .slide-logo {
+   max-height: 2em !important;
+//    top: 0.25em;
+//    left: 0.5em;
+}
