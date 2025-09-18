@@ -9,33 +9,39 @@ format:
     template-partials:
       - title-slide.html
     slide-number: false
-    chalkboard: 
-      buttons: false
     preview-links: false
     logo: logo.png
+
     # css: styles.css
     theme: [serif, custom.scss]
     footer: 'TRE Community Conference 2025'
     center: false
-resources:
-  - demo.pdf
+    embed-resources: true
 ---
 
 ## Reminder of metadata!
 
+::: {.fragment}
  - Metadata is either:
     - _findable_ [(e.g. filename, author, last modified date)]{style="font-size: 60%;"}
     - _structural_ [(e.g. variable names, variable datatype)]{style="font-size: 60%;"}
+:::
 
+::: {.fragment}
  - _Enhancing_ metadata:
     - increase richness of data catalogues 
     - improving access for researchers
     - reduce effort for everyone involved in the approvals process
+:::
 
 ## Technical overview
 
+::: {.fragment}
  - Extensible framework written in Python
     - easy for other developers to contribute
+:::
+
+::: {.fragment}   
  - Methods to create:
     - numerical summary statistics
     [(e.g. mean, median, quartiles)]{style="font-size: 60%;"}
@@ -43,24 +49,29 @@ resources:
     [(e.g. spatial bounds; work ongoing to display on a suitable basemap)]{style="font-size: 60%;"}
     - LLM-powered keyword generator
     [locally-hosted instance of the Llama LLM; no additional training; main challenge: prompt-engineering!]{style="font-size: 60%;"}
+:::
 
 ## More thoughts
 
+::: {.fragment}
  - Testing implemented using Pytest and Hypothesis 
  - Output to relevant formats (JSON and images)
  - Currently a prototype: SDC required for exporting and adding to data catalogues
- - a production version would require:
+ - A production version would require:
     - code running (automatically) within TREs
     - export of files [(is SDC _always_ needed?)]{style="font-size: 60%;"}
     - upload to data catalogue
     - decision on vocabularies to describe the metadata
+:::
 
 ## Thanks!
 
- - https://github.com/epcced/connect4-metadata [(currently read-only)]{style="font-size: 60%;"}
+ 🔗 https://github.com/epcced/connect4-metadata [(currently read-only)]{style="font-size: 60%;"}
+
+[**Contact**:]{.smallcaps} [c.wood@epcc.ed.ac.uk]{style="font-size: 80%"}
 
 [**Acknowledgements**:]{.smallcaps} [Chiara Asselborn (PHS), Kostas Kavoussanakis (UoE), Jen Muir (RDS), Emily Symmons (ONS), ]{style="font-size: 80%"}
 
-[**Funding**:]{.smallcaps} [Economic and Social Research Council, under the “Future data
-services: pilots to enhance data services for the future” programme
+[**Funding**:]{.smallcaps} [Economic and Social Research Council, under the "Future data
+services: pilots to enhance data services for the future" programme
 (ES/Z502972/1)]{style="font-size: 80%"}

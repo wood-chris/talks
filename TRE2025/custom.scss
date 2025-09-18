@@ -15,6 +15,10 @@ $link-color: #42affa;
     margin-right: 0;
 }
 
+.reveal {
+   font-family: "Source Sans Pro", Helvetica, sans-serif
+}
+
 .reveal .quarto-title-author {
    text-align: right !important;
    width: 100%;
@@ -24,6 +28,6 @@ $link-color: #42affa;
 
 .reveal .slide-logo {
    max-height: 2em !important;
-//    top: 0.25em;
-//    left: 0.5em;
+   top: 0.25em;
+   right: 0.5em;
 }
