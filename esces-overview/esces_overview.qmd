@@ -4,6 +4,7 @@ subtitle: "Teaching environmental scientists how to escape from Excel"
 author: 
     name: Chris Wood
     affiliation: EPCC, University of Edinburgh
+    email: c.wood@epcc.ed.ac.uk
 format:
   revealjs: 
     template-partials:
@@ -20,7 +21,7 @@ format:
     embed-resources: true
 ---
 
-## How it started!
+## How it started
 
 ::: {.fragment}
  - NERC ASTC calls
@@ -32,36 +33,42 @@ format:
 ::: {.fragment}
  - Essential Scientific Computing Skills for Environmental Scientists (ESCES) was born:
     - Training for non-computational environmental and life scientists
-    - Fits a skills gap that UKRI has acknowledged for several years exists
+    - Fills a skills gap that UKRI has acknowledged for several years exists
     - Build upon the well tested material of The Carpentries 
       - Fork the lessons and modify many of the examples to make them more environmental focussed: try to reduce cognitive load 
 :::
 
-## ESCES1
+::: {.notes}
+Conveniently been asked to talk about this separately in a couple of weeks, good reuse of presentation! :)
+:::
+
+## ESCES (1)
 
 ::: {.fragment}
   - June 2022 - May 2023
   - Carpentries material forked and modifed
   - 6 courses planned:
     - 2 each of a "beginner" (Bash, Python & Numpy, git) and "intermediate" (more Bash, "Python best practices", data analysis using Pandas) course
-
-       <!-- - assuming knowledge of Python when teaching Pandas means we can cover more material, including a brand new geospatial episode we wrote specifically -->
 :::
 
 ::: {.fragment}
 - funding for travel and accommodation so that PhD students don't need to use their RTSG
     - these kinds of skills *are* important, but not as important as attending a conference or buying lab consumables...  
-  - ring-fenced budget for DEI <!-- e.g. paying for caring so parents can attend full day courses they might not otherwise be able to -->
+  - ring-fenced budget for DEI
   - 180 places; 232 registrations 
   - panel score: 7
+:::
+
+::: {.notes}
+assuming knowledge of Python when teaching Pandas means we can cover more material, including a brand new geospatial episode we wrote specifically
+caring: e.g. paying for caring so parents can attend full day courses they might not otherwise be able to
 :::
 
 ## It continued: ESCES2
 
 ::: {.fragment}
  
- <!-- - August 2023 - July 2024 -->
-
+ - August 2023 - July 2024
  - introduced an advanced course covering distributed data analysis using Spark on JASMIN, basic parallelisation using GNU Parallel and numba
  - expanded courses to three locations (added Liverpool); 4 beginner courses; 3 intermediate courses; 2 advanced courses
  - 3 "bring your own data" days (one at each level, in each location) <!-- [but, had an underspend so added an extra BYOD day to final in-person course] -->
@@ -73,13 +80,17 @@ format:
 
 ::: {.fragment}
 
- <!-- - April 2025 - April 2026  -->
-
+ - April 2025 - April 2026 
  - basically a repeat of ESCES2
- - intermediate online course was run as over 4 half day sessions  <!-- (Monday; Tuesday; Monday; Tuesday) with a later start; seems to have been well received; less intense for both instuctors and learners -->
- - advanced in-person course is ~200% oversubscribed <!-- (we have enough underspend that we're intending to run another course) -->
+ - intermediate online course was run as over 4 half day sessions
+ - advanced in-person course is ~200% oversubscribed
  - 240 total places across all 9 courses; 308 registrations to date (6 courses done so far)
  - panel score: 9
+:::
+
+::: {.notes}
+intermediate course: (Monday; Tuesday; Monday; Tuesday) with a later start; seems to have been well received; less intense for both instuctors and learners
+advanced course over-subscription: we have enough underspend that we're intending to run another course
 :::
 
 ## Success?
@@ -103,7 +114,7 @@ Since I'm quiet and unassuming, and not at all narcissistic, this is the _most_ 
 
 ::: {.fragment}
 
- <!-- > It was a wonderful course! Really enjoy it! I learned a lot-Thank you sooo much -->
+ > It was a wonderful course! Really enjoy it! I learned a lot-Thank you sooo much
  
  > I've learned more than I ever have, thank you!
  
@@ -124,34 +135,53 @@ Since I'm quiet and unassuming, and not at all narcissistic, this is the _most_ 
 
  > This course is great! I always thought supercomputers were hard + not for me
 
+ - plenty of constructive criticism too (mainly around setup issues, not enough time doing exercises, speed [too fast *and* too slow])
 
+::: {.notes}
+and misunderstandings over files location in jupyter vs windows - how to start a notebook in a specific location, etc - especially for beginners
+:::
 
 ## Some thoughts
 
+::: {.fragment}
  - wide range of organisations represented by attendees, including public sector (e.g. SEPA, UKHO) and NGO (e.g. National Trust)
    - wouldn't normally have access to this kind of course
  - can never please everyone! Even with making examples environmental some feedback was they didn't understand the context
+:::
+
+::: {.fragment}
+ - conversion of initial registrations to attendee is only ~50%
  - good retention rate for courses, even for online
- - but: conversion of initial registrations to attendee is only ~50%
- - only get 100% cash value (including staff costs), not 80% fEC - in reality these are about equivalent but there are still extra hoops to jump through
+:::
+
+::: {.fragment}
+ - these grants give 100% cash value (including staff costs) rather than 80% fEC
  - compared with other ASTC courses still seems very good value per attendee
  - future funding opportunities? ASTC seems to have been quietly dropped for now
  - potential bigger collaboration with University of Manchester
  - I've been doing all admin + sorting out registrations, which has been fairly time consuming for nearly 1000 registrations...
+:::
+
+::: {.notes}
+content: even within env sciences there's a very wide range: people doing ecology might not understand the ocean wave data we use, but will never win...
+mix of these leads to the underspend we get each year
+in reality these are about equivalent but there are still extra admin hurdles to jump through
+I submitted a bid for a similar STFC grant but wasn't successful
+:::
 
 ## tl;dr
 
 (if you've been reading your emails for the last 10 mins)
 
- - 3 years of NERC training: total of £156,745
- - reduce cognitive load by using environmental examples
- - beginner, intermediate, and advanced courses - most of which built on existing Carpentries material
- - 24 courses
-  - 660 places
-  - 973 registrants 
-  - 480 actual attendees to date
- - well received by attendees and ASTC review panels
- - future courses dependent on some sort of funding
+  - 3 years of NERC training: total of £156,745
+  - reduce cognitive load by using datasets and examples from the environmental sciences
+  - beginner, intermediate, and advanced courses - most of which built on existing Carpentries material (a mix of Bash, Python, git)
+  - 24 courses
+    - 660 places
+    - 973 registrants 
+    - 480 actual attendees to date
+  - well received by attendees and ASTC review panels
+  - future courses dependent on some sort of funding
 
 ## Acknowledgements
 
@@ -188,12 +218,12 @@ Lots and lots of demonstrators (apologies to any I've missed!):
 
 ## Thanks!
 
- 🔗 [All course material:  https://github.com/nerc-esces]{style="font-size: 80%;"}
-
-[**Contact**:]{.smallcaps} [c.wood@epcc.ed.ac.uk]{style="font-size: 80%"}
+ 🔗 All course material:  https://github.com/nerc-esces
 
 [**Funding**:]{.smallcaps}
 
-  - [ESCES (NE/Y003799/1)]{style="font-size: 80%"}
-  - [ESCES2 (NE/X009211/1)]{style="font-size: 80%"}
-  - [ESCES3 (UKRI1308)]{style="font-size: 80%"}
+  - ESCES (NE/Y003799/1)
+  - ESCES2 (NE/X009211/1)
+  - ESCES3 (UKRI1308)
+
+[**Contact**:]{.smallcaps} c.wood@epcc.ed.ac.uk
