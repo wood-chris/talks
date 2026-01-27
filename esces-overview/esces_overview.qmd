@@ -71,9 +71,13 @@ caring: e.g. paying for caring so parents can attend full day courses they might
  - August 2023 - July 2024
  - introduced an advanced course covering distributed data analysis using Spark on JASMIN, basic parallelisation using GNU Parallel and numba
  - expanded courses to three locations (added Liverpool); 4 beginner courses; 3 intermediate courses; 2 advanced courses
- - 3 "bring your own data" days (one at each level, in each location) <!-- [but, had an underspend so added an extra BYOD day to final in-person course] -->
+ - 3 "bring your own data" days (one at each level, in each location)
  - 240 total places across all 9 courses (limit because of ~~bug~~ _feature_ in Je-S Studentship Application form...); 433 registrations
  - panel score: 8
+:::
+
+::: {.notes}
+[but, had an underspend so added an extra BYOD day to final in-person course]
 :::
 
 ## ...and again: ESCES3
@@ -135,7 +139,9 @@ Since I'm quiet and unassuming, and not at all narcissistic, this is the _most_ 
 
  > This course is great! I always thought supercomputers were hard + not for me
 
+::: {.fragment}
  - plenty of constructive criticism too (mainly around setup issues, not enough time doing exercises, speed [too fast *and* too slow])
+:::
 
 ::: {.notes}
 and misunderstandings over files location in jupyter vs windows - how to start a notebook in a specific location, etc - especially for beginners
