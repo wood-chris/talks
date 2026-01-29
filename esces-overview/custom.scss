@@ -12,12 +12,16 @@ $link-color: #42affa;
     background-color: #041e42;
     border: 0;
     height: 1px;
-    width: 75%;
+    width: 85%;
     margin-right: 0;
 }
 
 .reveal {
    font-family: "Source Sans Pro", Helvetica, sans-serif;
+}
+
+.reveal.smaller .slides h1 {
+    font-size: calc(2.5em/0.9); // overriding default which is 2.5em/0.7
 }
 
 .reveal .quarto-title-author {

@@ -1,5 +1,6 @@
 ---
-title: "\"NERC training stuff\""
+encoding: "UTF-8"
+title: "The ESCES Programme"
 subtitle: "Teaching environmental scientists how to escape from Excel"
 author: 
     name: Chris Wood
@@ -19,6 +20,8 @@ format:
     footer: 'ESCES overview presentation'
     center: false
     embed-resources: true
+html:
+  from: markdown+emoji
 ---
 
 ## How it started
@@ -42,6 +45,18 @@ format:
 Conveniently been asked to talk about this separately in a couple of weeks, good reuse of presentation! :)
 :::
 
+## Why me?
+
+::: {.fragment}
+ - BSc Chemistry / PhD Oceanography (modelling nutrient cycling in shelf-seas)
+ - Scientific software development / data management
+ - Project Manager at EPCC
+ - Support various life + environmental science projects (phylogeny; 	machine learning for species identification; etc)
+ - Module coordinator on MSc + project supervision
+ - Technical lead for data management activities
+ - Regular Carpentries instructor
+:::
+
 ## ESCES (1)
 
 ::: {.fragment}
@@ -49,6 +64,7 @@ Conveniently been asked to talk about this separately in a couple of weeks, good
   - Carpentries material forked and modifed
   - 6 courses planned:
     - 2 each of a "beginner" (Bash, Python & Numpy, git) and "intermediate" (more Bash, "Python best practices", data analysis using Pandas) course
+    - one of each in Oxford, Edinburgh, and online
 :::
 
 ::: {.fragment}
@@ -112,32 +128,46 @@ advanced course over-subscription: we have enough underspend that we're intendin
 - panel only funded one computational training course in 2025/6 (in previous rounds University of Manchester had funding to run Intermediate Software Development; they were unsucessful this year)
 :::
 
-## What attendees have said about the courses
+## What attendees have said
+
+ <!-- about the courses -->
 
 Since I'm quiet and unassuming, and not at all narcissistic, this is the _most_ modest feedback... :) 
 
 ::: {.fragment}
-
  > It was a wonderful course! Really enjoy it! I learned a lot-Thank you sooo much
- 
- > I've learned more than I ever have, thank you!
- 
- > Andrew is a great teacher. Really good at the conceptual framework stuff. Analogies and diagrams v. useful
+:::
 
+::: {.fragment}
+ > I've learned more than I ever have, thank you!
+:::
+
+::: {.fragment}
+ > Andrew is a great teacher. Really good at the conceptual framework stuff. Analogies and diagrams v. useful
+:::
+
+::: {.fragment}
  > Geospatial -> interactive maps will be SUPER useful for my data! Was really interesting!
 :::
 
+::: {.fragment}
+> Very good instructions and the help from the PhD students was great
+:::
+
 ##
+### ..and more 😳 
+
+::: {.fragment}
 
  > Great content :) It is nice to learn the 'official' way of doing things instead of my dodgy stack overflow accumulated knowledge. Also good to know why things are the way they are. I now want to go and streamline my code to tidy it up and be nicer
  
  > courses taught by both Andrew & Chris was great and they were both very interactive. Nice experience :) Thank you!
 
- > Very good instructions and the help from the PhD students was great
-
  > Chris is really passionate & very good in teaching the python code. The lecture is really helpful and useful
 
  > This course is great! I always thought supercomputers were hard + not for me
+
+:::
 
 ::: {.fragment}
  - plenty of constructive criticism too (mainly around setup issues, not enough time doing exercises, speed [too fast *and* too slow])
@@ -150,7 +180,7 @@ and misunderstandings over files location in jupyter vs windows - how to start a
 ## Some thoughts
 
 ::: {.fragment}
- - wide range of organisations represented by attendees, including public sector (e.g. SEPA, UKHO) and NGO (e.g. National Trust)
+ - wide range of organisations represented by attendees, including public sector (e.g. SEPA, UKHO) and NGOs (e.g. National Trust)
    - wouldn't normally have access to this kind of course
  - can never please everyone! Even with making examples environmental some feedback was they didn't understand the context
 :::
@@ -185,7 +215,7 @@ I submitted a bid for a similar STFC grant but wasn't successful
   - 24 courses
     - 660 places
     - 973 registrants 
-    - 480 actual attendees to date
+    - 480 actual attendees to date (i.e. not 100% capacity of courses despite large number of initial registrations)
   - well received by attendees and ASTC review panels
   - future courses dependent on some sort of funding
 
@@ -196,12 +226,12 @@ Lots!
 ::: {.fragment}
 Co-Is:
 
- - Neil Chue Hong (EPCC) [ESCES1 & 2]
- - Daniel Barker (School of Biological Sciences, University of Edinburgh)
- - Lucy Bricheno (National Oceanography Centre) \[ESCES1]
- - Andrew Walker (Department of Earth Sciences, University of Oxford) [ESCES2 & 3]
- - Colin Sauze (National Oceanography Centre) [ESCES2 & 3]
- - Tobias Ferreira (National Oceanography Centre) [ESCES3]
+ - Neil Chue Hong (EPCC, University of Edinburgh): ESCES1 (PI) & 2
+ - Daniel Barker (School of Biological Sciences, University of Edinburgh): ESCES1-3
+ - Lucy Bricheno (National Oceanography Centre): ESCES1
+ - Andrew Walker (Department of Earth Sciences, University of Oxford): ESCES2 & 3
+ - Colin Sauze (National Oceanography Centre): ESCES2 & 3
+ - Tobias Ferreira (National Oceanography Centre): ESCES3
 :::
 
 ::: {.fragment}
@@ -228,8 +258,8 @@ Lots and lots of demonstrators (apologies to any I've missed!):
 
 [**Funding**:]{.smallcaps}
 
-  - ESCES (NE/Y003799/1)
-  - ESCES2 (NE/X009211/1)
-  - ESCES3 (UKRI1308)
+  - ESCES: NE/Y003799/1
+  - ESCES2: NE/X009211/1
+  - ESCES3: UKRI1308
 
 [**Contact**:]{.smallcaps} c.wood@epcc.ed.ac.uk
