@@ -118,7 +118,7 @@ advanced course over-subscription: we have enough underspend that we're intendin
 ::: {.fragment}
 - Panel scores increased for each grant; feedback was generally very positive
 - Attendees are encouraged to complete the Carpentries pre- and post-workshop surveys for each course
-  - allows us to get some metrics that The Carpenties calculates, including NPS (-100<NPS<+100; a good course is >50; an excellent course is >75)
+  - allows us to get some metrics that The Carpentries calculates, including NPS (-100<NPS<+100; a good course is >50; an excellent course is >75)
   - we have had one course that was 92(!); all courses above 50
 :::
 
