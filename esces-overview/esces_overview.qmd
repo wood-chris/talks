@@ -104,7 +104,8 @@ caring: e.g. paying for caring so parents can attend full day courses they might
  - basically a repeat of ESCES2
  - intermediate online course was run as over 4 half day sessions
  - advanced in-person course is ~200% oversubscribed
- - 240 total places across all 9 courses; 308 registrations to date (6 courses done so far)
+  - also had an underspend, so we are running an additional in-person Advanced course
+ - 260 total places across all 10 courses; 315 registrations to date (7 courses done so far)
  - panel score: 9
 :::
 
@@ -212,10 +213,10 @@ I submitted a bid for a similar STFC grant but wasn't successful
   - 3 years of NERC training: total of £156,745
   - reduce cognitive load by using datasets and examples from the environmental sciences
   - beginner, intermediate, and advanced courses - most of which built on existing Carpentries material (a mix of Bash, Python, git)
-  - 24 courses
-    - 660 places
-    - 973 registrants 
-    - 480 actual attendees to date (i.e. not 100% capacity of courses despite large number of initial registrations)
+  - ~~24~~ 25 courses
+    - 680 places
+    - 980 registrants 
+    - 500 actual attendees to date (i.e. not 100% capacity of courses despite large number of initial registrations)
   - well received by attendees and ASTC review panels
   - future courses dependent on some sort of funding
 
@@ -237,7 +238,7 @@ Co-Is:
 ::: {.fragment}
 Other instructors:
 
- - Kashyap Chhatbar, Tony Hallam, Ruairidh MacLeod
+ - Kashyap Chhatbar, Tony Hallam, Simon Harnqvist, Ruairidh MacLeod
 :::
 
 ## Even more acknowledgements
@@ -249,7 +250,7 @@ Other instructors:
 ::: {.fragment}
 Lots and lots of demonstrators (apologies to any I've missed!):
 
-- Flic Anderson, Jakub Adamski, David Katz, Ananya Gangopadhyay, Cathal MacStay, Jake Davies, Gabriel Rodríguez Canal, Ricardo Jesus, Simon Harnqvist, Eddie Martin, Rebecca Colquhoun, Tobermory Mackay-Champion, Hannah Sanderson, Martyn Steel, George Perera, Auggie Marignier, Ken Smith, Max Birkett, Ian Smith, Justin Leung, Biao Wang, Adrian Mag, Zihao Chen, Adam Harding, Viktoria Trautner, Dan Gittins, Louis Headley, Xingran Ruan, Franck Latallerie
+- Flic Anderson, Jakub Adamski, David Katz, Ananya Gangopadhyay, Cathal MacStay, Jake Davies, Gabriel Rodríguez Canal, Ricardo Jesus, Eddie Martin, Rebecca Colquhoun, Tobermory Mackay-Champion, Hannah Sanderson, Martyn Steel, George Perera, Auggie Marignier, Ken Smith, Max Birkett, Ian Smith, Justin Leung, Biao Wang, Adrian Mag, Zihao Chen, Adam Harding, Viktoria Trautner, Dan Gittins, Louis Headley, Xingran Ruan, Franck Latallerie
 :::
 
 ## Thanks!
