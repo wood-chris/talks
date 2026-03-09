@@ -51,7 +51,7 @@ Conveniently been asked to talk about this separately in a couple of weeks, good
  - BSc Chemistry / PhD Oceanography (modelling nutrient cycling in shelf-seas)
  - Scientific software development / data management
  - Project Manager at EPCC
- - Support various life + environmental science projects (phylogeny; 	machine learning for species identification; etc)
+ - Particularly interested in life + environmental science projects (e.g have supported phylogeny; machine learning for species identification; etc)
  - Module coordinator on MSc + project supervision
  - Technical lead for data management activities
  - Regular Carpentries instructor
@@ -70,9 +70,12 @@ Conveniently been asked to talk about this separately in a couple of weeks, good
 ::: {.fragment}
 - funding for travel and accommodation so that PhD students don't need to use their RTSG
     - these kinds of skills *are* important, but not as important as attending a conference or buying lab consumables...  
-  - ring-fenced budget for DEI
-  - 180 places; 232 registrations 
-  - panel score: 7
+- ring-fenced budget for DEI
+- 180 places (30 per course); 232 registrations 
+:::
+
+::: {.fragment}
+- panel score: 7
 :::
 
 ::: {.notes}
@@ -88,7 +91,10 @@ caring: e.g. paying for caring so parents can attend full day courses they might
  - introduced an advanced course covering distributed data analysis using Spark on JASMIN, basic parallelisation using GNU Parallel and numba
  - expanded courses to three locations (added Liverpool); 4 beginner courses; 3 intermediate courses; 2 advanced courses
  - 3 "bring your own data" days (one at each level, in each location)
- - 240 total places across all 9 courses (limit because of ~~bug~~ _feature_ in Je-S Studentship Application form...); 433 registrations
+ - 240 total places across all 9 courses (limit of 240 rather than 270 because of ~~bug~~ _feature_ in Je-S Studentship Application form...); 433 registrations
+:::
+
+::: {.fragment}
  - panel score: 8
 :::
 
@@ -106,12 +112,16 @@ caring: e.g. paying for caring so parents can attend full day courses they might
  - advanced in-person course is ~200% oversubscribed
    - also had an underspend, so we are running an additional in-person Advanced course
  - 260 total places across all 10 courses; 315 registrations to date (7 courses done so far)
+:::
+
+::: {.fragment}
  - panel score: 9
 :::
 
 ::: {.notes}
 intermediate course: (Monday; Tuesday; Monday; Tuesday) with a later start; seems to have been well received; less intense for both instuctors and learners
 advanced course over-subscription: we have enough underspend that we're intending to run another course
+and yes, we've got around the official 240 limit ;)
 :::
 
 ## Success?
@@ -245,6 +255,7 @@ Other instructors:
 
 ::: {.fragment}
  - EPCC admin and finance
+ - JASMIN Support Team
 :::
 
 ::: {.fragment}
