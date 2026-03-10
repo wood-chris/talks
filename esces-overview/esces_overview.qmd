@@ -52,10 +52,20 @@ Conveniently been asked to talk about this separately in a couple of weeks, good
  - Scientific software development / data management
  - Project Manager at EPCC
  - Particularly interested in life + environmental science projects (e.g have supported phylogeny; machine learning for species identification; etc)
+   - also involved in BBSRC AIBIO Network
  - Module coordinator on MSc + project supervision
  - Technical lead for data management activities
  - Regular Carpentries instructor
 :::
+
+## Who are EPCC?
+
+ - Based at University of Edinburgh
+ - Run ARCHER2 (UK national HPC facility) [~750000 cores]; hosted about half a mile from here!
+   - other systems (including Cirrus – Tier2 facility with GPUs) and EIDF (compute / storage via self-managed VMs)
+ - Support scientists using HPC (through training and direct technical support in projects)
+ - Run other infrastructure (e.g. Trusted Research Environments; data catalogues) for academia & public sector
+ - Run MSc in HPC
 
 ## ESCES (1)
 
@@ -214,6 +224,20 @@ content: even within env sciences there's a very wide range: people doing ecolog
 mix of these leads to the underspend we get each year
 in reality these are about equivalent but there are still extra admin hurdles to jump through
 I submitted a bid for a similar STFC grant but wasn't successful
+:::
+
+## Extra thoughts
+
+ - used some of the content to run a couple of sessions for SBS Undergrads
+   - small number of attendees, but well received
+   - changes to pre-Honours and Honours modules means all UGs now get taught coding
+ - as more degree courses include basic programming will this kind of course become less necessary?
+ - STFC training grant application rejected
+   - different attitude to training from different RCs?
+
+::: {.notes}
+UGs used knowledge in dissertations
+even managed to get DoT to pay for lunch for these courses!!
 :::
 
 ## tl;dr
