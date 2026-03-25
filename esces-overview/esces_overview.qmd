@@ -61,7 +61,7 @@ Conveniently been asked to talk about this separately in a couple of weeks, good
 ## Who are EPCC?
 
  - Based at University of Edinburgh
- - Run ARCHER2 (UK national HPC facility) [~750000 cores]; hosted about half a mile from here!
+ - Run ARCHER2 (UK national HPC facility) [~750000 cores]
    - other systems (including Cirrus – Tier2 facility with GPUs) and EIDF (compute / storage via self-managed VMs)
  - Support scientists using HPC (through training and direct technical support in projects)
  - Run other infrastructure (e.g. Trusted Research Environments; data catalogues) for academia & public sector
