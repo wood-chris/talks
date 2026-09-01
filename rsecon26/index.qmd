@@ -1,0 +1,114 @@
+---
+encoding: "UTF-8"
+title: |
+    Helping Researchers \
+    Find The Way
+subtitle: "Optimising the Preparation of Analytical-Ready Geospatial Datasets"
+author: 
+    name: Chris Wood, Mark Sawyer
+    affiliation: EPCC, University of Edinburgh
+format:
+  revealjs: 
+    template-partials:
+      - title-slide.html
+    slide-number: false
+    preview-links: false
+    logo: logo.png
+    smaller: true
+
+    # css: styles.css
+    theme: [serif, custom.scss]
+    # footer: 'ESCES overview presentation'
+    center: false
+    embed-resources: true
+html:
+  from: markdown+emoji
+---
+
+## What problem are we trying to solve?
+
+ - Anecodotal evidence that researchers spend a huge amount of time wrangling data, or not be aware of what datasets exist
+ - Scottish Government holds many disparate datasets
+   - ...many of which are geospatially labelled (i.e. contain latitude / longitude   or OSGB variables)
+
+::: {style="text-align: center; font-size: larger"}
+**Can we link any of these together to create new, derived datasets that are of use to researchers from a wide range of domains?**
+:::
+
+::: aside
+OSGB is Ordnance Survey National Grid: flattened grid; 0-indexed from just South-West of Isles of Scilly. Numbers (_eastings_ and _northings_) are offset metres from `(0,0)`. We're currently at `433652,387246`
+:::
+
+::: {.notes}
+This is a bit of a hybrid of a traditional research talk and a RSE talk. Also nothing massively clever here, but hopefully interesting!
+:::
+
+
+## First proof-of-concept research question
+
+::: {.fragment}
+
+::: {style="text-align: center; font-size:xx-large; padding-top: 2em; padding-bottom: 2em;"}
+**What is the walking distance from each residential address in Scotland to its nearest GP surgery?**
+:::
+
+:::
+
+::: {.fragment}
+
+Initial unknowns:
+
+ - how easy data cleaning would be
+ - run time
+ - potential optimisations
+
+:::
+
+## The data: residential data
+
+
+
+## The data: GP Surgeries
+
+
+
+## The data: map data with routing capabilities
+
+
+
+## The tooling
+
+
+
+
+## Initial development: Edinburgh
+
+
+
+## Edinburgh results
+
+
+
+## Scotland-wide: optimisations
+
+
+
+## Results
+
+
+
+## tl;dr
+
+
+
+## Acknowledgements
+
+[**Funding**:]{.smallcaps}
+
+  - S-ADR: 
+
+#### Thanks!
+
+#### Questions?
+
+[**Contact**:]{.smallcaps} c.wood@epcc.ed.ac.uk
