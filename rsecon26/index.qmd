@@ -23,8 +23,8 @@ format:
     # footer: 'ESCES overview presentation'
     center: false
     embed-resources: true
-  html:
-    from: markdown+emoji
+html:
+  from: markdown+emoji
 ---
 
 ## What problem are we trying to solve?
