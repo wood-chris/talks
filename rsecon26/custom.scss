@@ -37,3 +37,12 @@ $link-color: #42affa;
    top: 0.25em;
    right: 0.5em;
 }
+
+/* Example: Move slide numbers to the top right or custom coordinates */
+.reveal .slide-number {
+  top: auto !important;
+  bottom: 20px !important;
+  right: 20px !important;
+  left: auto !important;
+  color: #333 !important; /* optional: change color */
+}
