@@ -104,7 +104,7 @@ Initial unknowns:
 
 But report number of UPRNs on each island without direct access to a GP - this is probably a useful dataset in its own right
 
-This is an early proof of concept so we can make assumptions like no viable walking route on islands with GPs - much more detailed analysis could determine whether including ferries as public transport is a sensible thing to do
+This is an early proof of concept so we can make assumptions like no viable walking route on islands without a GP surgery - much more detailed analysis could determine whether including ferries as public transport is a sensible thing to do
 :::
 
 ## The data: residential data
@@ -162,7 +162,7 @@ There are _two_ official lists of GPs in Scotland:
  - OpenData Scotland
     - more frequently updated (quarterly)
  - Spatial DataHub Scotland
-    - richer data (contains UPRN), last updated October 2020
+    - richer data (contains UPRN), but last updated October 2020
 
  - Luckily, both contain _Practice Code_
 :::
@@ -175,7 +175,7 @@ Unsurprisingly, lots of inconsistencies...
 
 ::: {.incremental}
 
- - some GP surgeries have moved and keep the same Practice Code
+ - some GP surgeries have moved and kept the same Practice Code
  - some GP surgeries have merged
  - some GP surgeries have moved and changed Practice Code
 
@@ -227,7 +227,7 @@ There are duplicates across UPRN and Postcode; there were examples of all of the
 
 ::: {.fragment}
  - OpenStreetMap to the rescue!
- - (plus: `pyorsm`, `networkx` and `osmnx` Python libraries)
+ - (plus: `pyorsm`, `networkx`, and `osmnx` Python libraries)
 :::
 
 :::
@@ -288,7 +288,7 @@ To get an idea of feasability for whole of Scotland in one go...
 
 ![](Edinburgh%20Network%20Graph-2026-09-05-190519.svg){fig-align="center"}
 
-\* For testing, geolocated all GPs based on postcode 
+\* For testing, all GPs were geolocated based on postcode 
 
 ::: {.notes}
 
@@ -362,7 +362,7 @@ Area isn't relevant to calculation but maybe interesting to see
 
  - 693 GPs (+ 3 unknown)
  - ~3990 uprns per GP
- - 1183 km^2^ radius _but_ standard deviation of 2132!
+ - 1183 km^2^ average area _but_ standard deviation of 2132!
 
 |       |  Walking  |  Driving   |   
 |-------|----------:|-----------:|
@@ -378,8 +378,7 @@ Area isn't relevant to calculation but maybe interesting to see
 unknown GPs - no UPRN or wasn't in AddressBase _and_ the postcode wasn't recognised by postcodes.io
 for reasons talked about earlier, might still be some duplicate locations
 All the results are means of the stats, so beware!!
- - highlight time efficiency!! this graph generation + distance calculation, excludes i/o for other datasets (e.g. UPRNs, but these are 1 off)
- - 
+ - highlight time efficiency!! this graph generation + distance calculation, excludes i/o for other datasets (e.g. UPRNs, but these are 1 off actions)
 
 :::
 
