@@ -57,10 +57,6 @@ i.e. about 433 km east and 387 km north of 0,0
 **What is the walking distance from each residential address in Scotland to its nearest GP surgery?**
 :::
 
-:::
-
-::: {.fragment}
-
 Initial unknowns:
 
  - how easy data cleaning would be
@@ -71,16 +67,11 @@ Initial unknowns:
 
 ## The issue with islands
 
-
-<!-- ::: {layout="[[1,1]]"} -->
-
 ![](scotland_islands.png){.absolute bottom=0 right=0 width="75%"}
-
-<!-- {.r-stretch} -->
 
 ::: {layout="[[1,2]]"}
 
-::: {.incremental}
+::: {.fragment}
 
  Scotland has 6901 islands
  
@@ -173,7 +164,7 @@ Unsurprisingly, lots of inconsistencies...
 
 :::
 
-::: {.incremental}
+::: {.fragment}
 
  - some GP surgeries have moved and kept the same Practice Code
  - some GP surgeries have merged
@@ -384,16 +375,22 @@ All the results are means of the stats, so beware!!
 
 ## Future work
 
-::: {.incremental}
+::: {.fragment}
  - Optimise how to deal with the islands
     - should we factor in ferries for transport?
+:::
+::: {.fragment}
  - Results by e.g. Council Areas 
+:::
+::: {.fragment}
  - Future points of interest?
     - pharmacies
     - schools
     - railway stations
     - bus stops
     - ...
+:::
+::: {.fragment}
  - make derived datasets available via relevant (meta)data catalogues
  - publicise to researchers
 :::
@@ -417,11 +414,12 @@ And maybe we could be act as a resource for researchers who don't have the abili
       - OpenStreetMap + AddressBase + GP surgeries
  - tools
       - well maintained libraries in the Python ecosystem
-      - GeoPandas + pyrosm + osmnx + networkx (+ postcodes.io)
- - data cleaning is time consuming!
+      - `GeoPandas` + `pyrosm` + `osmnx` + `networkx` (+ `postcodes.io`)
  - embarassingly parallel: easily optimised
       - graph generation is main bottleneck
  - walking and driving distances generated in <2 hours
+ - **data cleaning is time consuming!**
+
 :::
 
 ---
@@ -443,7 +441,7 @@ Data and useful discussions:
 
 ### Thanks!
 
-[**Contact**:]{.smallcaps} c.wood@epcc.ed.ac.uk
+[c.wood@epcc.ed.ac.uk]{.smallcaps}
 
 :::
 
