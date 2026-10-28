@@ -49,30 +49,38 @@ easiest way to mark is totally automated!
 
 ## My initial thoughts for our on-campus MSc*
 
-####  (* different definitions of `good` for different cohorts)
+####  (* different definitions of `good` for different (types of) cohorts)
 
  - \>1 assessment format
    - different students are good at different types of assessment, and it doesn't seem fair to penalise them for a whole module on something they might otherwise find interesting by limiting them to an assessment format which they are bad at
+ - assessments should focus on understanding, not rote learning
+   - this doesn't necessarily map well to predominantly exam-based assessments which we're tending back towards because of GenAI 
  - Clear progression within individual topics
    - big jumps (or inconsistency) is likely to add to confusion
- - Clear rationale for inclusion of each topic in the module
  - Range of delivery formats (lectures *and* labs, and small group work in some instances)
    - we don't run any form of small group tutorials - these can be very effective when run well but takes effort
- - frequent 2 way feedback (cf. post-it note feedback)
  
 ## Other musings
 
+ - frequent 2 way feedback? (cf. post-it note feedback)
+ - Clear rationale for inclusion of each topic in the module
  - I think it's _as_ important to also have variation across the programme
    - i.e. it's important to have both modules that do focus on one topic (e.g. MPP) and wide range of many topics (e.g. FDM)
  - should we coordinate more between modules?
    - (yes!)
  - a very alt. thought: has anyone ever attempted a whole module that is taught in the same way as a Carpentries workshop?
    - live, interactive, coding 
+ - training on how to write good assessments?
+   - and consistency between modules?
+   - is the "difficulty value" of marks equivalent across the programme?
 
 
 
 ::: {.notes}
 
 there's a reason Oxford / Cambridge still teach like that
+
+Clear rationale for inclusion of each topic in the module: maybe reasons for dropoff in attendence if students don't see relevance?
+
 
 :::
